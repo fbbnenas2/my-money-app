@@ -13,7 +13,6 @@ class TabContent extends Component{
                     className={`tab-pane ${selected ? 'active' : ''}`}>
                     {this.props.children}
                 </div>
-                
             </If>
         )
     }
